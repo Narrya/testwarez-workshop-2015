@@ -3,6 +3,7 @@ Feature: List is closed when all tasks are closed
   I want to close all my task on the list
   In order to close my list
 
+  @test_gui_3
   Scenario: Closing all tasks on the list
     Given I am logged in
     And I am on lists page
