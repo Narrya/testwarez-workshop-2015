@@ -3,6 +3,7 @@ Feature: User can log in to the account
   I want to log in to the application
   In order to see my TODO lists
 
+  @test_gui_1
   Scenario: Log in to the application
     Given I am on log in page
     When I type "krystian" into username field
